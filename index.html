@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>WhereTheyAt</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no, minimal-ui"><meta name="apple-mobile-web-app-capable" content="yes"><meta property="fb:app_id" content="1414685225414589"><meta property="og:type" content="website"><meta property="og:url" content="http://www.wherethey.at"><meta property="og:title" content="WhereTheyAt - Keep Your Friends Close"><meta property="og:image" content="http://wherethey.at/images/whiteIcon.png"><meta property="og:description" content="See where your friends are in the world through check-ins, photos and more. They are closer than you think."><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"><link rel="stylesheet" href="stylesheet/total.css"><script type="text/javascript">window.VERSION_NUMBER = "1426910011835";
+
+    var _rollbarConfig = {
+        accessToken: "ae3b4a76adc74243877c6beb19363e3e",
+        captureUncaught: true,
+        payload: {
+          environment: "production",
+
+          client: {
+            javascript: {
+              source_map_enabled: true,
+              code_version: window.VERSION_NUMBER,
+              // Optionally have Rollbar guess which frames the error was thrown from
+              // when the browser does not provide line and column numbers.
+              guess_uncaught_frames: true
+            }
+          }
+        }
+    };
+    !function(a,b){function c(b){this.shimId=++h,this.notifier=null,this.parentShim=b,this.logger=function(){},a.console&&void 0===a.console.shimId&&(this.logger=a.console.log)}function d(b,c,d){!d[4]&&a._rollbarWrappedError&&(d[4]=a._rollbarWrappedError,a._rollbarWrappedError=null),b.uncaughtError.apply(b,d),c&&c.apply(a,d)}function e(b){var d=c;return g(function(){if(this.notifier)return this.notifier[b].apply(this.notifier,arguments);var c=this,e="scope"===b;e&&(c=new d(this));var f=Array.prototype.slice.call(arguments,0),g={shim:c,method:b,args:f,ts:new Date};return a._rollbarShimQueue.push(g),e?c:void 0})}function f(a,b){if(b.hasOwnProperty&&b.hasOwnProperty("addEventListener")){var c=b.addEventListener;b.addEventListener=function(b,d,e){c.call(this,b,a.wrap(d),e)};var d=b.removeEventListener;b.removeEventListener=function(a,b,c){d.call(this,a,b&&b._wrapped?b._wrapped:b,c)}}}function g(a,b){return b=b||this.logger,function(){try{return a.apply(this,arguments)}catch(c){b("Rollbar internal error:",c)}}}var h=0;c.init=function(a,b){var e=b.globalAlias||"Rollbar";if("object"==typeof a[e])return a[e];a._rollbarShimQueue=[],a._rollbarWrappedError=null,b=b||{};var h=new c;return g(function(){if(h.configure(b),b.captureUncaught){var c=a.onerror;a.onerror=function(){var a=Array.prototype.slice.call(arguments,0);d(h,c,a)};var g,i,j="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(g=0;g<j.length;++g)i=j[g],a[i]&&a[i].prototype&&f(h,a[i].prototype)}return a[e]=h,h},h.logger)()},c.prototype.loadFull=function(a,b,c,d){var e=g(function(){var a=b.createElement("script"),e=b.getElementsByTagName("script")[0];a.src=d.rollbarJsUrl,a.async=!c,a.onload=f,e.parentNode.insertBefore(a,e)},this.logger),f=g(function(){if(void 0===a._rollbarPayloadQueue)for(var b,c,d,e,f=new Error("rollbar.js did not load");b=a._rollbarShimQueue.shift();)for(d=b.args,e=0;e<d.length;++e)if(c=d[e],"function"==typeof c){c(f);break}},this.logger);g(function(){c?e():a.addEventListener?a.addEventListener("load",e,!1):a.attachEvent("onload",e)},this.logger)()},c.prototype.wrap=function(b){try{if("function"!=typeof b)return b;if(b._isWrap)return b;if(!b._wrapped){b._wrapped=function(){try{return b.apply(this,arguments)}catch(c){throw a._rollbarWrappedError=c,c}},b._wrapped._isWrap=!0;for(var c in b)b.hasOwnProperty(c)&&(b._wrapped[c]=b[c])}return b._wrapped}catch(d){return b}};for(var i="log,debug,info,warn,warning,error,critical,global,configure,scope,uncaughtError".split(","),j=0;j<i.length;++j)c.prototype[i[j]]=e(i[j]);var k="//d37gvrvc0wt4s1.cloudfront.net/js/v1.1/rollbar.min.js";_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||k;var l=c.init(a,_rollbarConfig);l.loadFull(a,b,!1,_rollbarConfig)}(window,document);</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      var createProp = 'auto';
+        if (location.href.indexOf("localhost") !== -1) {
+          createProp = {
+            'cookieDomain': 'none'
+          };
+        }
+
+        var appId = "UA-46626384-1";
+      ga('create', appId, createProp);
+      ga('require', 'displayfeatures');</script><script src="javascript/main.min.js"></script></head><body ver="1426910011835"><script>window.fbAsyncInit = function() {
+        FB.init({
+
+          appId      : '1414685225414589',
+          xfbml      : true,
+          version    : 'v1.0',
+          status     : true
+        });
+
+        initFb();
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/all.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));</script><div id="map" style="z-index: -1; position: absolute; top: 0px; right: 0; left: 0; bottom: 0"></div><div id="hud" class="page"><div id="topButton"><div id="logo"></div><div id="shareButton"><div class="fb-like" data-href="http://wherethey.at" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div></div></div><div id="syncMessage"></div></div><div id="landingPage" class="page"><div class="section" id="topHeader"><div id="content"><h1>WhereTheyAt</h1><h2>keep your friends close</h2><div id="login" class="button disabled"></div><div id="disclaimer">WhereTheyAt cares about your privacy.<br>Your friends' information is personal, and so is your map.</div></div></div><div class="restOfContent"><div class="section" id="info"><p class="header">Journey alongside your friends with check-ins, photos and more.</p><ul><li><p class="explanation">By logging in with your Facebook account, you enable our app to find <strong>check-ins</strong>, photo <strong>locations</strong> and more – anything your friend has shared that places them on a <strong>map</strong>.</p></li><li><p class="explanation">Our user-friendly interface makes it simple to see where your <strong>friends</strong> are, and a single click on their name will lead you to the <strong>page</strong> where their location was <strong>found</strong>.</p></li></ul></div><div class="section" id="seen"><a href="http://www.producthunt.com/posts/wheretheyat"><img data-type="product hunt" src="images/ph.png"></a> <a href="http://www.tnooz.com/article/quick-location-based-hack-locate-friends-colleagues-worldwide/"><img data-type="tnooz" src="images/tnooz.png"></a></div><div class="section" id="testimonial"><div class="testimonial"><div class="picture"><img src="images/eli.jpg"></div><div class="text">It’s hard to find <strong>familiar faces</strong> while on the road. WhereTheyAt began as a way to see old friends in new <strong>countries</strong> and to know who to ask for recommendations. WhereTheyAt shows where your friends are and keeps you on the <strong>map</strong> while traveling.</div><div class="who"><a href="https://twitter.com/eli_white">- Eli White, Founder of WhereTheyAt</a></div></div></div><div class="section" id="about"><ul class="links"><li><a href="https://www.facebook.com/wherearetheyat"><span class="icon icon-facebook" data-type="facebook"></span></a></li><li><a href="https://twitter.com/eli_white"><span class="icon icon-twitter" data-type="twitter"></span></a></li></ul></div><div class="section" id="flex"></div></div></div><div id="fb-root"></div><script type="text/template" id="template-infobox"><div class="infobox">
+        <ul class="content">
+
+        </ul>
+      </div></script><script type="text/template" id="template-infoboxCheckinItem"><li class="person">
+        <a target="_blank" class="link">
+          <img class="picture" />
+          <div class="info">
+            <span class="name"></span>
+            <span class="time"></span>
+          </div>
+        </a>
+      </li></script><script type="text/template" id="template-infoboxCityItem"><li>
+        <a target="_blank" class="link">
+          <span class="name"></span>
+        </a>
+      </li></script><script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC57Bz0ZnVb6Qq6FIY0SP4XiiqUKKSq84M&callback=initGoog"></script></body></html>
